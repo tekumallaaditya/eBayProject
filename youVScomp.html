@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+         crossorigin="anonymous"></script>
+        <script src="/assets/js/main.js"></script>
+    </head>
+    <body onload="getName()">
+        <div class="continer" >
+            <br><br><br><br><br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="jumbotron leftSide">
+                        <h4 align="center" id="yourName"></h4><br>
+                        <img id="minion" src="assets/images/player.gif">
+                        <img align="right" id="option"><br><br>
+                        <button type="button" id="rock" class="btn btn-info" onclick="rock()">Rock</button>
+                        <button type="button" id="paper" class="btn btn-info" onclick="paper()">Paper</button>
+                        <button type="button" id="scissors" class="btn btn-info" onclick="scissors()">Scissors</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="jumbotron centerSide">
+                        <div>
+                            <h3 align="center">Final Score</h3>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th id="yourScore"></th>
+                                        <th>Comp</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td id="playerScore"></td>
+                                        <td id="compScore"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div id="roundLabel" style="display: none" align="center" >Round:<p id="roundNumber"></p></div>
+                            <button  id="replay" type="button" class="btn btn-danger" style="display: none">Replay</button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="jumbotron rightSide">
+                        <h4 align="center">Comp</h4><br>
+                        <img  id="optionComp">
+                        <img align="right" id="minion" src="assets/images/comp.gif"><br><br><br>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
