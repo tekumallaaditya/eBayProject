@@ -1,15 +1,16 @@
-#youVsComputer { float: left; font-size: 20px }
+#youVsComputer { float: left;}
 #giveFont {font-family: FontAwesome;}
 #rock {font-size: 16px}
 #paper { font-size: 16px}
 #scissors { font-size: 16px}
-#compVsComp {float: right}
+#compVsComp {float: right ;}
+#winnerIMG {height: 60%; width: auto;float: center}
 #homeImg {height: 40%; width: 100%;}
 #minion {height: 30%; width: auto}
-#option {height: 30%; width: auto; transform: rotateY(180deg)}
-#optionComp {height: 30%; width: auto}
+#option {height: 15%; width: auto; transform: rotateY(180deg)}
+#optionComp {height: 15%; width: auto}
 #replay, #startGame {display: block; margin:auto;}
 body{background: url(../images/background2.jpg)}
 #playerNameInput {align-self: auto; width: 30% ;font-size: 10px}
 th, td {text-align: center}
-.jumbotron.leftSide, .jumbotron.centerSide, .jumbotron.rightSide {height: 50%; width: auto}
+

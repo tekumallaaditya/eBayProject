@@ -2,13 +2,12 @@
 #giveFont {font-family: FontAwesome;}
 #compVsComp {float: right}
 #homeImg {height: 70%; width: 100%;}
-#minion {height: 50%; width: auto}
-#winnerIMG {height: 25%; width: auto;float: center}
+#minion {height: 40%; width: auto}
+#winnerIMG {height: 60%; width: auto;float: center}
 #option {height: 30%; width: auto; transform: rotateY(180deg)}
 #optionComp {height: 30%; width: auto}
 #replay, #startGame {display: block; margin:auto;}
 body{background: url(../images/background2.jpg)}
 #playerNameInput {align-self: auto; width: 30% ; }
 th, td {text-align: center}
-.jumbotron.leftSide, .jumbotron.rightSide {height: 60%; width: auto;}
-.jumbotron.centerSide {text-align:center; min-height: 60%}
+.jumbotron.centerSide {text-align:center;  }
