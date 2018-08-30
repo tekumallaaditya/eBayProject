@@ -1,11 +1,12 @@
 #youVsComputer { float: left}
 #compVsComp {float: right}
-#homeImg {height: 400px; width: 1020px}
-#minion {height: 100px; width: auto}
-#option {height: 100px; width: auto}
-#optionComp {height: 100px; width: auto}
-#playercenter {padding-left: 200px}
-#replay {display: block; margin:auto;}
-body{background: url(/assets/images/background2.jpg)}
+#homeImg {height: 70%; width: 100%;}
+#minion {height: 60%; width: auto}
+#winnerIMG {height: 60%; width: auto;float: center}
+#option {height: 30%; width: auto; transform: rotateY(180deg)}
+#optionComp {height: 30%; width: auto}
+#replay, #startGame {display: block; margin:auto;}
+body{background: url(../images/background2.jpg)}
 th, td {text-align: center}
-.jumbotron.leftSide, .jumbotron.centerSide, .jumbotron.rightSide {height: 300px; width: auto}
+.jumbotron.leftSide, .jumbotron.centerSide, .jumbotron.rightSide {height: 50%; width: auto}
+.jumbotron.centerSide {text-align:center;}

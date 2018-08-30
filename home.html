@@ -3,7 +3,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" media="screen and (min-width: 500px)" href="./assets/css/main.css">
+        <link rel="stylesheet" media="screen and (max-width: 500px)" href="./assets/css/smallScreen.css">
         <script
         src="https://code.jquery.com/jquery-3.3.1.js"
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -17,12 +18,12 @@
     <body>
         <div class="container">                    
             <div class="jumbotron main">
-                <h1 align="center">Rock, Paper, Scissors</h1> 
+                <h1 id="giveFont" align="center">Rock, Paper, Scissors <a href="https://www.youtube.com/watch?v=JtcHmiAcbZc" target="_blank"><p>How to play?</p></a></h1>  
                 <img src="assets/images/homePic.jpg" id="homeImg">
                 <br><br>
-                <button id="youVsComputer" class="btn btn-info" onclick= "youVScomp()" > you vs Computer</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <button id="youVsComputer" class="btn btn-info" onclick= "youVScomp()" > You vs Computer</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                 <input type="text" id="playerNameInput" placeholder="enter your Name" name="playerName">               
-                <button id="compVsComp" class="btn btn-info">computer vs Computer</button>
+                <button id="compVsComp" class="btn btn-info">Computer vs Computer</button>
             </div>
         </div>
         <script>
